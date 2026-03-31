@@ -1,0 +1,6 @@
+2026-03-25 17:28:15.591 [TestNG-tests-1] INFO  BasicActionsUtils - Typing 'Hello' into element: By.id: user-name
+2026-03-25 17:28:15.619 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-03-25 17:28:15.981 [TestNG-tests-1] INFO  BasicActionsUtils - Typing 'World' into element: By.id: password
+2026-03-25 17:28:15.981 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-03-25 17:28:16.219 [TestNG-tests-1] INFO  BasicActionsUtils - Clicking on element: By.id: login-button
+2026-03-25 17:28:16.219 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
