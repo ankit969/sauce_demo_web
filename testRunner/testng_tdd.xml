@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TDD Suite" parallel="tests" thread-count="1">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="retry.RetryListener"/>
+    </listeners>
+    
+    <test name="TDD Tests">
+        <classes>
+            <class name="tdd.InventoryTest">
+            	<!--<methods>
+            		<include name="tc05_longAddress"/>
+            	</methods>-->
+            </class>
+        </classes>
+    </test>
+
+</suite>

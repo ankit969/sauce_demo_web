@@ -40,6 +40,11 @@ public final class WaitUtils {
 		wait.until((Function<WebDriver, Boolean>) wd -> ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
 	}
 	
+	public java.util.List<WebElement> waitForAllVisible(By locator) {
+	    log.info("Waiting for all elements visibility: {}", locator);
+	    return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+	}
+	
 	public WebElement fluentWait(By locator, int timeoutSeconds, int pollingSec) {
 		log.info("fluent wait for: {}", locator);
 		return new FluentWait<>(driver)

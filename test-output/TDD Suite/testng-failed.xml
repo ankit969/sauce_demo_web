@@ -5,9 +5,9 @@
     <classes>
       <class name="tdd.LoginTest">
         <methods>
+          <include name="verify_Login_Functionality" invocation-numbers="0 1 2 3 4 5 6 7"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verify_Login_With_Valid_Data"/>
         </methods>
       </class> <!-- tdd.LoginTest -->
     </classes>

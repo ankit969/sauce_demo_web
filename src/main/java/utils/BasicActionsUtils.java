@@ -10,11 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public final class BasicActionsUtils {
 	
 	private static final Logger log = LogManager.getLogger(BasicActionsUtils.class);
-	private final WebDriver driver;
 	private final WaitUtils wait;
 	
-	public BasicActionsUtils(WebDriver driver, WaitUtils wait) {
-		this.driver = driver;
+	public BasicActionsUtils(WaitUtils wait) {
 		this.wait = wait;
 	}
 	
@@ -23,8 +21,20 @@ public final class BasicActionsUtils {
 		wait.waitForClickable(locator).click();
 	}
 	
+	public void click(By locator, String elementName) {//method overloading-compile time poly-morphism
+		log.info("Clicking on element: {}", elementName);
+		wait.waitForClickable(locator).click();
+	}
+	
 	public void enter(By locator, String text) {
 		log.info("Typing '{}' into element: {}", text, locator);
+		WebElement element = wait.waitForVisibility(locator);
+		element.clear();
+		element.sendKeys(text);
+	}
+	
+	public void enter(By locator, String text, String fieldName) {
+		log.info("Typing '{}' into element: {}", text, fieldName);
 		WebElement element = wait.waitForVisibility(locator);
 		element.clear();
 		element.sendKeys(text);

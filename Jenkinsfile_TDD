@@ -1,0 +1,43 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'Java11'
+    }
+
+    parameters {
+        string(name: 'THREAD_COUNT', defaultValue: '1')
+        string(name: 'RETRY_COUNT', defaultValue: '1')
+    }
+
+    stages {
+
+        stage('Clean') {
+            steps {
+                sh 'mvn clean'
+            }
+        }
+
+        stage('Run TDD Tests') {
+            steps {
+                sh """
+                mvn test \
+                -DsuiteXmlFile=testng_tdd.xml \
+                -DthreadCount=${THREAD_COUNT} \
+                -DretryCount=${RETRY_COUNT}
+                """
+            }
+        }
+
+        stage('Publish Report') {
+            steps {
+                publishHTML([
+                    reportDir: 'reports',
+                    reportFiles: 'extent-report.html',
+                    reportName: 'TDD Extent Report'
+                ])
+            }
+        }
+    }
+}
