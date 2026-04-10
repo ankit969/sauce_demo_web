@@ -25,10 +25,10 @@ pipeline {
         }
 
         stage('Run TDD Tests') {
-            steps {
-                bat "mvn test -DsuiteXmlFile=testng_tdd.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
-            }
-        }
+    steps {
+        bat "mvn test -DsuiteXmlFile=testRunner/testng.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
+   		 }
+	}
 
         stage('Publish Report') {
             steps {
