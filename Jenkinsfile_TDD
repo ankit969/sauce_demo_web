@@ -6,6 +6,11 @@ pipeline {
         jdk 'myjava'
     }
 
+    environment {
+        JAVA_HOME = tool 'myjava'
+        PATH = "${JAVA_HOME}\\bin;${env.PATH}"
+    }
+
     parameters {
         string(name: 'THREAD_COUNT', defaultValue: '1')
         string(name: 'RETRY_COUNT', defaultValue: '1')
