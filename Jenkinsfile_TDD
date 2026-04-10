@@ -26,7 +26,7 @@ pipeline {
 
         stage('Run TDD Tests') {
     steps {
-        bat "mvn test -DsuiteXmlFile=testRunner/testng.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
+        bat "mvn test -DsuiteXmlFile=testRunner/testng_tdd.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
    		 }
 	}
 
