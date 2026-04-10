@@ -12,13 +12,13 @@ pipeline {
     }
 
     parameters {
-        string(name: 'THREAD_COUNT', defaultValue: '1')
-        string(name: 'RETRY_COUNT', defaultValue: '1')
+        string(name: 'THREAD_COUNT', defaultValue: '1', description: 'Parallel threads')
+        string(name: 'RETRY_COUNT', defaultValue: '1', description: 'Retry failed tests')
     }
 
     stages {
 
-        stage('Clean') {
+        stage('Clean Workspace') {
             steps {
                 bat 'mvn clean'
             }
@@ -38,6 +38,18 @@ pipeline {
                     reportName: 'TDD Extent Report'
                 ])
             }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline execution completed'
+        }
+        success {
+            echo 'Build SUCCESS 🎉'
+        }
+        failure {
+            echo 'Build FAILED ❌ Check logs'
         }
     }
 }
