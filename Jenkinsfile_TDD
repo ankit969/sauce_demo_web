@@ -25,21 +25,26 @@ pipeline {
         }
 
         stage('Run TDD Tests') {
-    steps {
-        bat "mvn test -DsuiteXmlFiles=testRunner/testng_tdd.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
-   		 }
-	}
-
-        stage('Publish Report') {
             steps {
-                publishHTML([
-   						 reportDir: 'reports',
-    					reportFiles: 'extent-report.html',
-    					reportName: 'TDD Extent Report',
-    					keepAll: true,
-    					alwaysLinkToLastBuild: true,
-    					allowMissing: false
-				])
+                bat """
+                mvn test -DsuiteXmlFiles=testRunner/testng_tdd.xml ^
+                -DthreadCount=%THREAD_COUNT% ^
+                -DretryCount=%RETRY_COUNT%
+                """
+            }
+        }
+
+        stage('Zip Extent Report') {
+            steps {
+                bat """
+                powershell Compress-Archive -Path reports\\* -DestinationPath extent-report.zip -Force
+                """
+            }
+        }
+
+        stage('Archive Report') {
+            steps {
+                archiveArtifacts artifacts: 'extent-report.zip', fingerprint: true
             }
         }
     }
