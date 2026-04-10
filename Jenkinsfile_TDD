@@ -33,10 +33,13 @@ pipeline {
         stage('Publish Report') {
             steps {
                 publishHTML([
-                    reportDir: 'reports',
-                    reportFiles: 'extent-report.html',
-                    reportName: 'TDD Extent Report'
-                ])
+   						 reportDir: 'reports',
+    					reportFiles: 'extent-report.html',
+    					reportName: 'TDD Extent Report',
+    					keepAll: true,
+    					alwaysLinkToLastBuild: true,
+    					allowMissing: false
+				])
             }
         }
     }
