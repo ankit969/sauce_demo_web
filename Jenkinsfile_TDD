@@ -15,18 +15,13 @@ pipeline {
 
         stage('Clean') {
             steps {
-                sh 'mvn clean'
+                bat 'mvn clean'
             }
         }
 
         stage('Run TDD Tests') {
             steps {
-                sh """
-                mvn test \
-                -DsuiteXmlFile=testng_tdd.xml \
-                -DthreadCount=${THREAD_COUNT} \
-                -DretryCount=${RETRY_COUNT}
-                """
+                bat "mvn test -DsuiteXmlFile=testng_tdd.xml -DthreadCount=%THREAD_COUNT% -DretryCount=%RETRY_COUNT%"
             }
         }
 
