@@ -23,15 +23,28 @@ public class LoginTest extends BaseTest{
 	
 	@Test(dataProvider = "loginTestData")
 	public void verify_Login_Functionality(String tcId) {
-		Map<String, String> testData = ExcelReader.getRowDataByTcId(FILE_PATH, TEST_DATA_SHEET, tcId);
-		
-		String username = testData.get("Username");
-		String password = testData.get("Password");
-		
-		loginPage.login(username, password);
-		
-		// Temporary validation just to confirm flow works
-        Assert.assertTrue(true, "Executed test for TC_ID: " + tcId);
+
+	    Map<String, String> testData = ExcelReader.getRowDataByTcId(FILE_PATH, TEST_DATA_SHEET, tcId);
+
+	    String username = testData.get("Username");
+	    String password = testData.get("Password");
+	    String expectedResultType = testData.get("ExpectedResultType");
+	    String expectedErrorMessage = testData.get("ExpectedErrorMessage");
+
+	    loginPage.login(username, password);
+
+	    if ("SUCCESS".equalsIgnoreCase(expectedResultType)) {
+
+	        Assert.assertTrue(loginPage.isLoginSuccessful(),
+	                "Expected user to land on inventory page for TC_ID: " + tcId);
+
+	    } else if ("ERROR".equalsIgnoreCase(expectedResultType)) {
+
+	        String actualError = loginPage.getErrorMessage();
+
+	        Assert.assertEquals(actualError, expectedErrorMessage,
+	                "Error message mismatch for TC_ID: " + tcId);
+	    }
 	}
 
 }

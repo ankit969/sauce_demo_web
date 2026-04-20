@@ -15,7 +15,7 @@ public final class LoginPage extends BasePage{
     private final By passwordField = By.id("password");
     private final By loginButton = By.id("login-button");
     private final By errorMessage = By.cssSelector("h3[data-test='error']");
-    private final By inventoryPage = By.id("inventory_container");
+    private final By inventoryPage = By.id("inventory_container11");
     
     public void open() {
     	driver.get(ConfigReader.getProperty("url"));

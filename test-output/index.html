@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-BDD_Suite" class="navigator-link">
-              <span class="suite-name border-passed">BDD Suite</span>
+              <span class="suite-name border-failed">BDD Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BDD_Suite" class="hide-methods failed suite-BDD_Suite"> (hide)</a> <!-- hide-methods failed suite-BDD_Suite -->
+                      <a href="#" panel-name="suite-BDD_Suite" class="show-methods failed suite-BDD_Suite"> (show)</a> <!-- show-methods failed suite-BDD_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-BDD_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BDD_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,37 +117,37 @@
                     <div class="method-list-content passed suite-BDD_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify expected product count&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify expected product count", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product details visibility&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify product details visibility", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify inventory title&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify inventory title", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product consistency&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify product consistency", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product list&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify product list", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user lands on inventory page&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify user lands on inventory page", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.InventoryRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product count&quot;, &quot;Inventory Page Validation&quot;)">runScenario("Verify product count", "Inventory Page Validation")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Suite" title="bdd.runner.LoginRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">runScenario("Validate login scenarios", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-BDD_Suite -->
@@ -148,78 +162,101 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BDD_Suite" class="panel BDD_Suite">
-          <div class="suite-BDD_Suite-class-passed">
+          <div class="suite-BDD_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">bdd.runner.InventoryRunner</span>
+              <img src="failed.png"/>
+              <span class="class-name">bdd.runner.LoginRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify expected product count&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify expected product count", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify expected product count","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be successful expected [true] but found [false]
+	at bdd.stepdefinitions.LoginSteps.verify_login_result(LoginSteps.java:29)
+	at ✽.login result should be &quot;SUCCESS&quot;(file:///G:/Automation/sauce_demo_web/src/test/resources/features/login.feature:8)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BDD_Suite-class-failed -->
+          <div class="suite-BDD_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bdd.runner.LoginRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify product details visibility&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify product details visibility", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product details visibility","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify inventory title&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify inventory title", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify inventory title","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify product consistency&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify product consistency", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product consistency","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify product list&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify product list", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product list","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify user lands on inventory page&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify user lands on inventory page", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify user lands on inventory page","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify product count&quot;, &quot;Inventory Page Validation&quot;)">
-                  </a> <!-- runScenario("Verify product count", "Inventory Page Validation") -->
+                  <a name="runScenario(&quot;Validate login scenarios&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Validate login scenarios", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product count","Inventory Page Validation")</span>
+                  <span class="parameters">("Validate login scenarios","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -238,7 +275,7 @@
 &lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;BDD Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Cucumber Tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;bdd.runner.InventoryRunner&quot;/&gt;
+      &lt;class name=&quot;bdd.runner.LoginRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Cucumber Tests --&gt;
 &lt;/suite&gt; &lt;!-- BDD Suite --&gt;
@@ -286,40 +323,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'bdd.runner.InventoryRunner')
-data.setCell(0, 3, 8866);
+data.setCell(0, 2, 'bdd.runner.LoginRunner')
+data.setCell(0, 3, 15565);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'bdd.runner.InventoryRunner')
-data.setCell(1, 3, 5984);
+data.setCell(1, 2, 'bdd.runner.LoginRunner')
+data.setCell(1, 3, 4417);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'bdd.runner.InventoryRunner')
-data.setCell(2, 3, 4904);
+data.setCell(2, 2, 'bdd.runner.LoginRunner')
+data.setCell(2, 3, 3562);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'bdd.runner.InventoryRunner')
-data.setCell(3, 3, 4764);
+data.setCell(3, 2, 'bdd.runner.LoginRunner')
+data.setCell(3, 3, 3191);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
-data.setCell(4, 2, 'bdd.runner.InventoryRunner')
-data.setCell(4, 3, 4537);
+data.setCell(4, 2, 'bdd.runner.LoginRunner')
+data.setCell(4, 3, 2707);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
-data.setCell(5, 2, 'bdd.runner.InventoryRunner')
-data.setCell(5, 3, 4046);
+data.setCell(5, 2, 'bdd.runner.LoginRunner')
+data.setCell(5, 3, 2543);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
-data.setCell(6, 2, 'bdd.runner.InventoryRunner')
-data.setCell(6, 3, 4039);
+data.setCell(6, 2, 'bdd.runner.LoginRunner')
+data.setCell(6, 3, 2526);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'bdd.runner.LoginRunner')
+data.setCell(7, 3, 2514);
 window.suiteTableData['BDD_Suite']= { tableData: data, tableDiv: 'times-div-BDD_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-BDD_Suite">
               </div> <!-- times-div-BDD_Suite -->
             </div> <!-- times-div -->
@@ -345,43 +386,53 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">bdd.runner.InventoryRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bdd.runner.LoginRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5939a379)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@58326051)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify user lands on inventory page", "Inventory Page Validation")</span>
-                <span class="method-start">828 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">655 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify inventory title", "Inventory Page Validation")</span>
-                <span class="method-start">9701 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">16224 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify product list", "Inventory Page Validation")</span>
-                <span class="method-start">13742 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">18933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify product count", "Inventory Page Validation")</span>
-                <span class="method-start">17793 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">21449 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify product details visibility", "Inventory Page Validation")</span>
-                <span class="method-start">22332 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">23994 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify product consistency", "Inventory Page Validation")</span>
-                <span class="method-start">27238 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">27187 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify expected product count", "Inventory Page Validation")</span>
-                <span class="method-start">33226 ms</span>
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">29715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate login scenarios", "Login Functionality")</span>
+                <span class="method-start">33278 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">38008 ms</span>
+                <span class="method-start">37700 ms</span>
               </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37746 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

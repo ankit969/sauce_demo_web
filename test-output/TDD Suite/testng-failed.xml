@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [TDD Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="TextBox Tests(failed)">
+<suite thread-count="1" parallel="tests" name="Failed suite [TDD Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="retry.RetryListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="TDD Tests(failed)">
     <classes>
       <class name="tdd.LoginTest">
         <methods>
-          <include name="verify_Login_Functionality" invocation-numbers="0 1 2 3 4 5 6 7"/>
           <include name="setUp"/>
+          <include name="verify_Login_Functionality" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tdd.LoginTest -->
     </classes>
-  </test> <!-- TextBox Tests(failed) -->
+  </test> <!-- TDD Tests(failed) -->
 </suite> <!-- Failed suite [TDD Suite] -->

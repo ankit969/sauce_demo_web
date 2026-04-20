@@ -1,5 +1,7 @@
 package bdd.stepdefinitions;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -34,21 +36,27 @@ public class Hooks {
     public void tearDown(Scenario scenario) {
 
         if (scenario.isFailed()) {
+
+            // ✅ 1. Capture screenshot as FILE (for Extent)
             String path = ScreenshotUtils.captureScreenshot(driver, scenario.getName());
 
+            // ✅ 2. Capture screenshot as BYTES (for Cucumber)
+            byte[] screenshotBytes = ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.BYTES);
+
+            // ✅ 3. Attach to Cucumber report
+            scenario.attach(screenshotBytes, "image/png", "Failed Screenshot");
+
+            // ✅ 4. Attach to Extent report
             ExtentTestManager.getTest()
                     .fail("Scenario Failed")
                     .addScreenCaptureFromPath(path);
+
         } else {
             ExtentTestManager.getTest().pass("Scenario Passed");
         }
 
         DriverManager.quitDriver();
-    }
-	
-	@AfterAll
-    public static void flushReport() {
-        extent.flush();
     }
 
 }

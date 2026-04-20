@@ -8,7 +8,7 @@
     
     <test name="TDD Tests">
         <classes>
-            <class name="tdd.InventoryTest">
+            <class name="tdd.LoginTest">
             	<!--<methods>
             		<include name="tc05_longAddress"/>
             	</methods>-->
