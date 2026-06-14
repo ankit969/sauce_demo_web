@@ -1,0 +1,63 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'mymaven'
+        jdk 'myjava'
+    }
+
+    environment {
+        JAVA_HOME = tool 'myjava'
+        PATH = "${JAVA_HOME}\\bin;${env.PATH}"
+    }
+
+    parameters {
+        string(name: 'THREAD_COUNT', defaultValue: '1', description: 'Parallel threads')
+        string(name: 'RETRY_COUNT', defaultValue: '1', description: 'Retry failed tests')
+    }
+
+    stages {
+
+        stage('Clean Workspace') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
+
+        stage('Run TDD Tests') {
+            steps {
+                bat """
+                mvn test -DsuiteXmlFiles=testRunner/testng_tdd.xml ^
+                -DthreadCount=%THREAD_COUNT% ^
+                -DretryCount=%RETRY_COUNT%
+                """
+            }
+        }
+
+        stage('Zip Extent Report') {
+            steps {
+                bat """
+                powershell Compress-Archive -Path reports\\* -DestinationPath extent-report.zip -Force
+                """
+            }
+        }
+
+        stage('Archive Report') {
+            steps {
+                archiveArtifacts artifacts: 'extent-report.zip', fingerprint: true
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline execution completed'
+        }
+        success {
+            echo 'Build SUCCESS 🎉'
+        }
+        failure {
+            echo 'Build FAILED ❌ Check logs'
+        }
+    }
+}

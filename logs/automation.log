@@ -1,0 +1,444 @@
+2026-04-20 11:04:44.060 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:04:44.432 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:04:44.432 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:04:44.608 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:04:44.608 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:04:44.866 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:04:48.018 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:04:48.308 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:04:48.310 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:04:48.495 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:04:48.495 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:04:48.766 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:04:48.775 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:04:48.833 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.cssSelector: .title: true
+2026-04-20 11:04:48.833 [TestNG-tests-1] INFO  InventoryPage - Getting text from element: By.cssSelector: .title
+2026-04-20 11:04:48.833 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:04:51.620 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:04:52.350 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:04:52.350 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:04:52.554 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:04:52.554 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:04:52.857 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:04:52.866 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container
+2026-04-20 11:04:52.922 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.id: inventory_container: true
+2026-04-20 11:04:56.008 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:04:56.303 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:04:56.303 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:04:56.515 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:04:56.515 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:04:56.799 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:04:56.804 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:04:56.969 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:05:01.734 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:05:02.088 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:05:02.088 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:05:02.300 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:05:02.300 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:05:02.712 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:05:02.718 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_name
+2026-04-20 11:05:02.829 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_name
+2026-04-20 11:05:02.829 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_price
+2026-04-20 11:05:02.997 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_price
+2026-04-20 11:05:02.997 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: .inventory_item_img img
+2026-04-20 11:05:03.427 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: .inventory_item_img img
+2026-04-20 11:05:03.427 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: button.btn_inventory
+2026-04-20 11:05:03.588 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: button.btn_inventory
+2026-04-20 11:05:07.396 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:05:07.868 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:05:07.868 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:05:08.162 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:05:08.165 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:05:08.505 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:05:08.530 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:05:08.646 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:06:06.796 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:07.084 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:07.086 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:07.258 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:07.258 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:07.480 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:10.258 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:10.559 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:10.559 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:10.796 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:10.796 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:11.038 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:11.048 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:06:11.126 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.cssSelector: .title: true
+2026-04-20 11:06:11.126 [TestNG-tests-1] INFO  InventoryPage - Getting text from element: By.cssSelector: .title
+2026-04-20 11:06:11.126 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:06:14.234 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:14.492 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:14.494 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:14.681 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:14.681 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:14.913 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:14.921 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container
+2026-04-20 11:06:14.972 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.id: inventory_container: true
+2026-04-20 11:06:17.223 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:18.059 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:18.059 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:18.247 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:18.247 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:18.456 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:18.467 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:06:18.579 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:06:20.965 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:21.257 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:21.257 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:21.436 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:21.436 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:21.660 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:21.667 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_name
+2026-04-20 11:06:21.776 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_name
+2026-04-20 11:06:21.776 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_price
+2026-04-20 11:06:21.904 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_price
+2026-04-20 11:06:21.904 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: .inventory_item_img img
+2026-04-20 11:06:22.038 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: .inventory_item_img img
+2026-04-20 11:06:22.038 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: button.btn_inventory
+2026-04-20 11:06:22.173 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: button.btn_inventory
+2026-04-20 11:06:25.387 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:06:25.639 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:06:25.639 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:06:25.806 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:06:25.806 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:06:26.053 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:06:26.065 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:06:26.201 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:07:44.273 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:07:44.961 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:07:44.966 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:07:45.142 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:07:45.142 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:07:45.382 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:07:48.488 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:07:48.766 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:07:48.766 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:07:49.025 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:07:49.025 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:07:49.337 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:07:49.350 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:07:49.402 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.cssSelector: .title: true
+2026-04-20 11:07:49.402 [TestNG-tests-1] INFO  InventoryPage - Getting text from element: By.cssSelector: .title
+2026-04-20 11:07:49.404 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:07:52.295 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:07:52.561 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:07:52.561 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:07:52.746 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:07:52.746 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:07:53.064 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:07:53.073 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container
+2026-04-20 11:07:53.145 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.id: inventory_container: true
+2026-04-20 11:07:55.896 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:07:56.744 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:07:56.746 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:07:56.953 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:07:56.953 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:07:57.264 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:07:57.270 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:07:57.402 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:08:00.053 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:08:00.348 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:08:00.348 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:08:00.540 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:08:00.540 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:08:00.750 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:08:00.774 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_name
+2026-04-20 11:08:00.884 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_name
+2026-04-20 11:08:00.884 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_price
+2026-04-20 11:08:01.020 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_price
+2026-04-20 11:08:01.020 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: .inventory_item_img img
+2026-04-20 11:08:01.162 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: .inventory_item_img img
+2026-04-20 11:08:01.162 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: button.btn_inventory
+2026-04-20 11:08:01.264 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: button.btn_inventory
+2026-04-20 11:08:04.522 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:08:04.805 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:08:04.805 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:08:04.995 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:08:04.995 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:08:05.230 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:08:05.242 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:08:05.355 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:30:25.226 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:25.519 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:25.805 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:25.957 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:25.957 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:26.134 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:28.668 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:28.885 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:28.885 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:29.049 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:29.049 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:29.214 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:29.223 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:30:29.274 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.cssSelector: .title: true
+2026-04-20 11:30:29.274 [TestNG-tests-1] INFO  InventoryPage - Getting text from element: By.cssSelector: .title
+2026-04-20 11:30:29.274 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: .title
+2026-04-20 11:30:31.349 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:31.580 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:31.580 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:31.708 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:31.712 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:31.859 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:31.875 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container
+2026-04-20 11:30:31.926 [TestNG-tests-1] INFO  InventoryPage - Element displayed status for By.id: inventory_container: true
+2026-04-20 11:30:34.004 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:34.212 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:34.212 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:34.354 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:34.354 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:34.547 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:34.560 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:30:34.683 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:30:38.287 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:38.489 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:38.489 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:38.611 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:38.611 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:38.749 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:38.750 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_name
+2026-04-20 11:30:38.824 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_name
+2026-04-20 11:30:38.824 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item_price
+2026-04-20 11:30:38.917 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item_price
+2026-04-20 11:30:38.918 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: .inventory_item_img img
+2026-04-20 11:30:39.078 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: .inventory_item_img img
+2026-04-20 11:30:39.078 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.cssSelector: button.btn_inventory
+2026-04-20 11:30:39.157 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.cssSelector: button.btn_inventory
+2026-04-20 11:30:41.729 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:30:41.912 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:30:41.912 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:30:42.048 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:30:42.048 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:30:42.185 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:30:42.190 [TestNG-tests-1] INFO  WaitUtils - Waiting for all elements visibility: By.className: inventory_item
+2026-04-20 11:30:42.322 [TestNG-tests-1] INFO  InventoryPage - Found 6 elements for locator: By.className: inventory_item
+2026-04-20 11:31:48.134 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:31:48.360 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:31:48.360 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:31:48.488 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:31:48.488 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:31:48.671 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:31:48.672 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container11
+2026-04-20 11:31:58.934 [TestNG-tests-1] ERROR LoginPage - Element not displayed: By.id: inventory_container11
+2026-04-20 11:32:00.736 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:01.328 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:32:01.329 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:01.461 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:32:01.462 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:01.634 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:01.634 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container11
+2026-04-20 11:32:11.860 [TestNG-tests-1] ERROR LoginPage - Element not displayed: By.id: inventory_container11
+2026-04-20 11:32:14.290 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:14.559 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:32:14.559 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:14.692 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:32:14.692 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:14.808 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:14.809 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:14.809 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:17.071 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:17.259 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:32:17.259 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:17.388 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:32:17.388 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:17.502 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:17.502 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:17.502 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:19.523 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:19.825 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:32:19.829 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:19.966 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:32:19.966 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:20.114 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:20.114 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:20.114 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:22.335 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:22.548 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:32:22.548 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:22.757 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:32:22.760 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:22.904 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:22.904 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:22.904 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:24.931 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:25.153 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:32:25.153 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:25.275 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:32:25.275 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:25.390 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:25.390 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:25.390 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:27.785 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:27.942 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:32:27.943 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:28.049 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:32:28.050 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:28.148 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:28.149 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:28.149 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:30.153 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:32:30.405 [TestNG-tests-1] INFO  LoginPage - Entered 'locked_out_user' into element: By.id: user-name
+2026-04-20 11:32:30.405 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:32:30.550 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:32:30.550 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:32:30.681 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:32:30.681 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:32:30.681 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:00.446 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:00.687 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:35:00.687 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:00.862 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:35:00.862 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:01.072 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:01.075 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container11
+2026-04-20 11:35:11.454 [TestNG-tests-1] ERROR LoginPage - Element not displayed: By.id: inventory_container11
+2026-04-20 11:35:13.868 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:14.071 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:35:14.073 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:14.189 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:35:14.189 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:14.302 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:14.302 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:14.342 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:14.342 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:14.344 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:16.749 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:16.981 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:35:16.995 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:17.149 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:35:17.149 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:17.292 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:17.292 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:17.330 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:17.330 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:17.330 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:19.395 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:19.611 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:35:19.611 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:19.731 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:35:19.731 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:19.862 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:19.863 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:19.902 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:19.903 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:19.904 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:25.832 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:25.986 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:35:25.986 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:26.152 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:35:26.152 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:26.277 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:26.277 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:26.316 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:26.316 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:26.316 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:28.730 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:28.906 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:35:28.906 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:28.999 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:35:28.999 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:29.103 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:29.103 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:29.145 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:29.145 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:29.145 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:31.278 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:31.429 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:35:31.430 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:31.537 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:35:31.537 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:31.639 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:31.641 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:31.674 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:31.675 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:31.675 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:34.589 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:35:34.786 [TestNG-tests-1] INFO  LoginPage - Entered 'locked_out_user' into element: By.id: user-name
+2026-04-20 11:35:34.786 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:35:34.894 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:35:34.894 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:35:34.993 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:35:34.993 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:35.031 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:35:35.031 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:35:35.031 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:32.239 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:32.432 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:45:32.433 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:32.548 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:45:32.548 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:32.709 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:32.713 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: inventory_container11
+2026-04-20 11:45:43.063 [TestNG-tests-1] ERROR LoginPage - Element not displayed: By.id: inventory_container11
+2026-04-20 11:45:45.707 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:45.912 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:45:45.912 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:46.048 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:45:46.048 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:46.166 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:46.166 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:46.206 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:45:46.206 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:46.206 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:48.240 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:48.491 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:45:48.491 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:48.604 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:45:48.605 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:48.720 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:48.720 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:48.757 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:45:48.760 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:48.760 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:50.754 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:50.953 [TestNG-tests-1] INFO  LoginPage - Entered 'invalid_user' into element: By.id: user-name
+2026-04-20 11:45:50.953 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:51.074 [TestNG-tests-1] INFO  LoginPage - Entered 'wrong_pass' into element: By.id: password
+2026-04-20 11:45:51.074 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:51.224 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:51.224 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:51.265 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:45:51.265 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:51.265 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:54.042 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:54.198 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:45:54.198 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:54.347 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:45:54.347 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:54.457 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:54.457 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:54.492 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:45:54.493 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:54.493 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:56.529 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:45:56.711 [TestNG-tests-1] INFO  LoginPage - Entered 'standard_user' into element: By.id: user-name
+2026-04-20 11:45:56.711 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:45:56.818 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:45:56.818 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:45:56.934 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:45:56.934 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:56.973 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:45:56.973 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:45:56.973 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:00.094 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:46:00.237 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: user-name
+2026-04-20 11:46:00.237 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:46:00.336 [TestNG-tests-1] INFO  LoginPage - Entered '' into element: By.id: password
+2026-04-20 11:46:00.336 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:46:00.446 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:46:00.450 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:00.485 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:46:00.485 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:00.485 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:04.169 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: user-name
+2026-04-20 11:46:04.372 [TestNG-tests-1] INFO  LoginPage - Entered 'locked_out_user' into element: By.id: user-name
+2026-04-20 11:46:04.372 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.id: password
+2026-04-20 11:46:04.487 [TestNG-tests-1] INFO  LoginPage - Entered 'secret_sauce' into element: By.id: password
+2026-04-20 11:46:04.487 [TestNG-tests-1] INFO  WaitUtils - Waiting for clickable: By.id: login-button
+2026-04-20 11:46:04.591 [TestNG-tests-1] INFO  LoginPage - Clicked on element: By.id: login-button
+2026-04-20 11:46:04.591 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:04.627 [TestNG-tests-1] INFO  LoginPage - Element displayed status for By.cssSelector: h3[data-test='error']: true
+2026-04-20 11:46:04.627 [TestNG-tests-1] INFO  LoginPage - Getting text from element: By.cssSelector: h3[data-test='error']
+2026-04-20 11:46:04.627 [TestNG-tests-1] INFO  WaitUtils - Waiting for visibility: By.cssSelector: h3[data-test='error']

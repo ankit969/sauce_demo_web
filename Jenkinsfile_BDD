@@ -1,0 +1,43 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'Java11'
+    }
+
+    parameters {
+        string(name: 'TAGS', defaultValue: '@login')
+        string(name: 'THREAD_COUNT', defaultValue: '1')
+    }
+
+    stages {
+
+        stage('Clean') {
+            steps {
+                sh 'mvn clean'
+            }
+        }
+
+        stage('Run BDD Tests') {
+            steps {
+                sh """
+                mvn test \
+                -DsuiteXmlFile=testng_bdd.xml \
+                -Dcucumber.filter.tags="${TAGS}" \
+                -DthreadCount=${THREAD_COUNT}
+                """
+            }
+        }
+
+        stage('Publish Report') {
+            steps {
+                publishHTML([
+                    reportDir: 'reports',
+                    reportFiles: 'extent-report.html',
+                    reportName: 'BDD Extent Report'
+                ])
+            }
+        }
+    }
+}
